@@ -31,24 +31,35 @@ body .container header {
 }
 
 body .container header .category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+body .container header .category span {
+    flex-grow: 1;
+    text-align: left;
     font-size: 1.2rem;
     font-weight: bold;
     letter-spacing: 0.3rem;
-    text-transform: uppercase;
+}
+
+body .container header .category .tags {
+    text-align: right;
+}
+
+body .container header .category .tags i {
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+body .container header .category .tags span {
+    font-size: 0.8rem;
 }
 
 body .container header .info {
     text-align: center;
-
-}
-
-body .container header .info .tags i {
-    font-size: 18px;
-    margin-right: 4px;
-}
-
-body .container header .info .tags span {
-    font-size: 1.1rem;
 }
 
 body .container header .info .title {
