@@ -21,5 +21,11 @@ body .container{
 }
 
 body .container header {
-    background: url(background.jpg);
+    background: url(background.jpg) center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+    padding: 20px 50px 60px 50px;
+    border-radius: 16px;
 }
