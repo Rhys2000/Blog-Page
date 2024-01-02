@@ -29,3 +29,15 @@ body .container header {
     padding: 20px 50px 60px 50px;
     border-radius: 16px;
 }
+
+body .container header .category {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+body .container header .info {
+    text-align: center;
+    
+}
