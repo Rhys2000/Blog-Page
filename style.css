@@ -39,5 +39,21 @@ body .container header .category {
 
 body .container header .info {
     text-align: center;
+
+}
+
+body .container header .info .tags i{
+    font-size: 18px;
+    margin-right: 4px;
+}
+
+body .container header .info .tags span{
+    font-size: 1.1rem;
+}
+
+body .container header .info .title{
+    margin: 20px 0;
+    font-size: 3rem;
+    font-weight: bold;
     
 }
