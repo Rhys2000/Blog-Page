@@ -73,3 +73,29 @@ body .details {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(0, 0, 0, 0.68);
 }
+
+body .details .item .item-title{
+    color: #ccc;
+}
+
+body .details .item .item-text {
+    margin-top: 8px;
+    font-size: 1.2rem;
+}
+
+body article { 
+    padding-bottom: 20px;
+    line-height: 1.70;
+}
+
+body article h4 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+}
+
+body article p{
+    margin-bottom: 20px;
+    color: #999;
+    font-size: 1.1rem;
+}
